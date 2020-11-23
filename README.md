@@ -4,8 +4,8 @@ distribution certificate, and, optionally, a new bundle identifier.
 
 ## Why?
 You may find yourself needing to resign an app due to an expired provisioning
-profile or new bundle identifier but do not have access to the source code of
-the project in the way of the `.xcodeproj` or `xcworkspace`.
+profile or new bundle identifier but do not have access to the project files
+(`.xcodeproj` or `.xcworkspace`).
 
 Or maybe you do have access to the project files, but your environment's version
 of Xcode cannot build the project within the GUI for whatever reason.
