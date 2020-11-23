@@ -38,6 +38,7 @@ Something like 'AnApp.ipa' 'AProvisioningProfile.mobileprovision' 'iPhone Distri
 You may pass a fourth argument to serve as a new bundle identifier for the resigned app. If not included, the original bundle identifier will be used.
 ```
 
+
 Assuming you have this script, the `.ipa`, and `.mobileprovision` all in the
 same folder, and you're in that folder:
 ```
