@@ -82,7 +82,7 @@ $ ls -l
 -rw-rw-r--@ 1 daniel  staff  11506405 Nov 19 15:57 AnApp.ipa
 -rw-r--r--@ 1 daniel  staff       228 Feb  4  2019 AppThinning.plist
 -rw-r--r--  1 daniel  staff       517 Nov 22 18:29 Entitlements.plist
--rw-r--r--@ 1 daniel  staff      7354 Nov 19 10:26 XC_iOS_XC_iOS_comcompanyAnApp.mobileprovision
+-rw-r--r--@ 1 daniel  staff      7354 Nov 19 10:26 XC_iOS_comcompanyAnApp.mobileprovision
 drwxr-xr-x@ 3 daniel  staff        96 Feb  4  2019 Payload
 -rw-r--r--  1 daniel  staff      3382 Nov 22 18:29 ProvisioningProfile.plist
 -rw-r--r--  1 daniel  staff  11488043 Nov 22 18:29 resigned.ipa
