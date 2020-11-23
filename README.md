@@ -21,7 +21,7 @@ with the private key used to generate the certificate in your Mac's Keychain
 
 ## Installation
 Clone this repository, navigate into the folder containing the script, and
-change the permissions of the script to allow it be executable:
+change the permissions of the script to allow it to be executable:
 ```
 $ chmod 755 resign-ios-app
 ```
@@ -76,7 +76,7 @@ Zipping app data into an .ipa...
 Resigning successful. Resigned app to /Users/daniel/resign-ios-app/resigned.ipa
 ```
 
-Upon a successful resigning, you'll notice some extra files in the folder:
+After a successful resigning, you'll notice some extra files in the folder:
 ```
 $ ls -l
 -rw-rw-r--@ 1 daniel  staff  11506405 Nov 19 15:57 AnApp.ipa
@@ -92,5 +92,13 @@ drwxr-xr-x@ 3 daniel  staff        96 Feb  4  2019 Payload
 `resigned.ipa` should be good to deploy.
 
 ## Tested
-macOS 10.15.7  
-GNU bash, version 5.0.7(1)-release (x86_64-apple-darwin16.7.0)
+I developed and tested this script on:
+* macOS 10.15.7
+* Xcode 12.2
+* GNU bash, version 5.0.7(1)-release (x86_64-apple-darwin16.7.0)
+
+That being said, this script should work with macOS's built in version of `bash
+version 3` and recent versions of macOS and Xcode.
+
+Please create an Issue against this repository if you can offer any improvements
+for more complicated resignings.
