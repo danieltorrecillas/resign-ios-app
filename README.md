@@ -92,7 +92,7 @@ drwxr-xr-x@ 3 daniel  staff        96 Feb  4  2019 Payload
 `resigned.ipa` should be good to deploy.
 
 ## Tested
-I developed and tested this script on:
+Developed and tested on:
 * macOS 10.15.7
 * Xcode 12.2
 * GNU bash, version 5.0.7(1)-release (x86_64-apple-darwin16.7.0)
